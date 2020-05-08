@@ -1,0 +1,16 @@
+.Wrapp {
+  background-color: rgba(194, 170, 170);
+  height: 35vh;
+  overflow: hidden;
+}
+
+.Wrapp ul {
+  padding: 10px 25px;
+}
+
+.Wrapp ul li {
+  color: black;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}

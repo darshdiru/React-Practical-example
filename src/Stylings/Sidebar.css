@@ -1,0 +1,30 @@
+.outer-bar {
+  background-color: #0088cc;
+  height: 35vh;
+  overflow: hidden;
+}
+
+#btn {
+  margin: 10px 10px;
+  background-color: green;
+  cursor: pointer;
+  border: none;
+  color: rgb(27, 23, 23);
+  font-size: 18px;
+  padding: 10px 25px;
+  font-weight: bold;
+}
+
+#btn:hover {
+  opacity: 0.6;
+  color: blue;
+  background-color: coral;
+}
+
+.outer-bar input {
+  width: 200px;
+  margin: 10px;
+  padding: 5px;
+  font-size: 16px;
+  color: rgb(27, 23, 23);
+}
