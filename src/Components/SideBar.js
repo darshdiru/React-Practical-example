@@ -33,7 +33,7 @@ export default class SideBar extends Component {
           Click here
         </button>
         <Counter />
-      </div>
+        </div>
     );
   }
 }

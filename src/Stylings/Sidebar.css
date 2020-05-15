@@ -1,7 +1,7 @@
 .outer-bar {
   background-color: #0088cc;
-  height: 35vh;
   overflow: hidden;
+  height: 35vh;
 }
 
 #btn {

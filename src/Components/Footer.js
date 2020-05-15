@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="container-fluid">
+    <div>
       <h2>footer example</h2>
     </div>
   );

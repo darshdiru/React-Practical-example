@@ -5,6 +5,7 @@ import SideBar from "./Components/SideBar";
 import DataFetch from "./Hooks/DataFetch";
 import MountCycle from "./LifeCycle/MountCycle";
 import Footer from "./Components/Footer";
+import Content from "./Components/Content";
 
 function App() {
   return (
@@ -12,16 +13,20 @@ function App() {
       <header>
         <NavBar />
       </header>
-      <div className="row">
-        <div className="col-4">
-          <SideBar />
+      <div className="body-content">
+        <div className="row mb-2">
+          <div className="col-4">
+            <SideBar />
+          </div>
+          <div className="col-4">
+            <MountCycle />
+          </div>
+          <div className="col-4">
+            <DataFetch />
+          </div>
         </div>
-        <div className="col-4 flex-column justify-content-center">
-          <MountCycle />
-        </div>
-
-        <div className="col-4">
-          <DataFetch />
+        <div className="row mt-3 mb-3">
+          <Content />
         </div>
       </div>
       <footer>

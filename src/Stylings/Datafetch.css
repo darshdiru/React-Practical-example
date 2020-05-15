@@ -5,12 +5,10 @@
 }
 
 .Wrapp ul {
-  padding: 10px 25px;
+  list-style-type: disc;
 }
 
 .Wrapp ul li {
   color: black;
   font-weight: bold;
-  display: flex;
-  justify-content: center;
 }

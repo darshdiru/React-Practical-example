@@ -1,0 +1,12 @@
+img {
+  max-height: 200px;
+}
+
+p {
+  color: black;
+  font-size: 18px;
+}
+
+.section {
+  margin: 20px;
+}
